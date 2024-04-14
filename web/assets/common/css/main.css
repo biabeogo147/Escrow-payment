@@ -1,0 +1,106 @@
+
+.navbar-custom {
+    background-color: #ff6f00;
+    /* Màu cam */
+}
+
+.banner {
+    background: #f2f2f2;
+    /* Màu nền cho banner */
+    padding: 50px 0;
+}
+
+.step-card {
+    margin-bottom: 20px;
+}
+
+.start-btn {
+    background-color: #ff6f00;
+    /* Màu cam */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.navbar-dark {
+    background-color: #ff6f00;
+}
+.col-md-6{
+    width:100%;
+}
+.mt-09 {
+    margin-bottom: 50px;
+}
+
+/* Overall form container */
+.site-signup {
+
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Form title styling */
+.site-signup h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for form instructions */
+.site-signup p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Individual form fields */
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* Submit button styling */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .site-signup {
+        padding: 10px;
+    }
+
+    .site-signup h1 {
+        font-size: 20px;
+    }
+
+    .form-control {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .btn-primary {
+        padding: 8px 10px;
+        font-size: 16px;
+    }
+}
