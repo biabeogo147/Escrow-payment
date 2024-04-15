@@ -1,7 +1,7 @@
 # Sale website with Alepay payment method
 
 ```
-https://www.nganluong.vn/vn/home.html
+Register your account in https://www.nganluong.vn/vn/home.html to get merchant_id and merchant_password.
 ```
 
 <p align="center">
@@ -37,41 +37,26 @@ Then open PHP image terminal to run ```php yii migrate``` to create table in you
   -------------------------------------<br/>
   Enter confirm link onto browser.<br/>
   <img src="demo/paste link.jpg" width=600><br/>
-  You will see this in your account <img src="demo/mail confirmed.jpg" width=200><br/>
+  You will see this in your account.<br/> 
+  <img src="demo/mail confirmed.jpg" width=200><br/>
 </p>
 
-## Push merchant's product on ```localhost:21080```
+## Create Order
 <p align="center">
-  Click on 'Tạo sản phẩm mới' to push new product,<br/>
-  <img src="demo/product.jpg" width=800><br/>
+  Click on 'Tạo đơn hàng mới' in 'Đơn hàng bán'.<br/>
+  <img src="demo/merchant order.jpg" width=800><br/>
   -------------------------------------<br/>
-  Upload product's image.<br/>
-  <img src="demo/create_product.jpg" width=800><br/>
+  Enter your customer id + sale product.<br/>
+  <img src="demo/merchant view.jpg" width=800><br/>
   -------------------------------------<br/>
-  Edit your product.<br/>
-  <img src="demo/edit_product.jpg" width=800><br/>
-  <img src="demo/view_product.jpg" width=800><br/>
-  <img src="demo/list_product.jpg" width=800><br/><br/><br/>
-</p>
-
-## Customer purchase product on ```localhost:20080```
-<p align="center">
-  Click on 'Thêm vào giỏ hàng' to add product to cart.<br/>
-  <img src="demo/list_product_frontend.jpg" width=800><br/>
+  In customer view (another account).<br/>
+  <img src="demo/customer view.jpg" width=800><br/>
   -------------------------------------<br/>
-  Click on 'Thanh toán' to purchase.<br/>
-  <img src="demo/cart.jpg" width=800><br/>
+  Click on 'Accept request', then 'Chuyển tiền cho bên trung gian' and enter your merchant_id and password that have been registered in Nganluong.
+  <img src="demo/nganluong id.jpg" width=800><br/>
+  <img src="demo/customer view 2.jpg" width=800><br/>
   -------------------------------------<br/>
-  Enter customer's information.<br/>
-  <img src="demo/confirm_order.jpg" width=400><br/>
-  <img src="demo/confirm_order_2.jpg" width=400><br/>
-  <img src="demo/payment.jpg" width=800><br/><br/><br/>
-</p>
-
-## Bonus: Promethus and Grafana
-<p align="center">
-  <img src="demo/prometheus.jpg" width=800><br/>
-  -------------------------------------<br/>
-  <img src="demo/grafana.jpg" width=800><br/>
+  In your account in nganluong.vn, you will see this:<br/>
+  <img src="demo/paid status.jpg" width=800><br/><br/><br/>
 </p>
 
