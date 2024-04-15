@@ -50,11 +50,11 @@ Then open PHP image terminal to run ```php yii migrate``` to create table in you
   <img src="demo/merchant view.jpg" width=800><br/>
   -------------------------------------<br/>
   In customer view (another account).<br/>
-  <img src="demo/customer view.jpg" width=800><br/>
+  <img src="demo/cusomer view.jpg" width=800><br/>
   -------------------------------------<br/>
-  Click on 'Accept request', then 'Chuyển tiền cho bên trung gian' and enter your merchant_id and password that have been registered in Nganluong.
+  Click on 'Accept request', then 'Chuyển tiền cho bên trung gian' and enter your merchant_id and password that have been registered in Nganluong.<br/>
   <img src="demo/nganluong id.jpg" width=800><br/>
-  <img src="demo/customer view 2.jpg" width=800><br/>
+  <img src="demo/cusomer view 2.jpg" width=800><br/>
   -------------------------------------<br/>
   In your account in nganluong.vn, you will see this:<br/>
   <img src="demo/paid status.jpg" width=800><br/><br/><br/>
