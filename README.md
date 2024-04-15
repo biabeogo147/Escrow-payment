@@ -13,31 +13,31 @@ https://www.nganluong.vn/vn/home.html
 Using ```docker-compose up --build``` to up this project onto your Docker.
 Then open PHP image terminal to run ```php yii migrate``` to create table in your database.
 <p align="center">
-  <img src="demo/yii migrate.jpg" width=800><br/><br/><br/>
+  <img src="demo/yii migrate.jpg" width=450><br/><br/><br/>
 </p>
 
 ## Login to phpmyadmin to control your data server
 <p align="center">
-  <img src="demo/phpmyadmin.jpg" width=800><br/><br/><br/>
+  <img src="demo/phpmyadmin.jpg" width=400><br/><br/><br/>
 </p>
 
 ## Sign up account
 <p align="center">
-  <img src="demo/signup.jpg" width=800><br/><br/><br/>
+  <img src="demo/signup.jpg" width=600><br/><br/><br/>
 </p>
 
 ## Confirm email
 <p align="center">
   Log in with your signed up account, then click on 'Tài khoản' to edit your account info.<br/>
   Add email that has been registered in Nganluong.vn<br/>
-  <img src="demo/email.jpg" width=800><br/>
+  <img src="demo/email.jpg" width=600><br/>
   -------------------------------------<br/>
   Open /app/runtime/mail in Docker Desktop.<br/>
-  <img src="demo/email link.jpg" width=800><br/>
+  <img src="demo/email link.jpg" width=600><br/>
   -------------------------------------<br/>
   Enter confirm link onto browser.<br/>
-  <img src="demo/paste link.jpg" width=800><br/>
-  You will see this in your account <img src="demo/mail confirmed.jpg" width=800><br/>
+  <img src="demo/paste link.jpg" width=600><br/>
+  You will see this in your account <img src="demo/mail confirmed.jpg" width=200><br/>
 </p>
 
 ## Push merchant's product on ```localhost:21080```
