@@ -1,4 +1,4 @@
-# Sale website with Alepay payment method
+# Escrow with Nganluong
 
 ```
 Register your account in https://www.nganluong.vn/vn/home.html to get merchant_id and merchant_password.
