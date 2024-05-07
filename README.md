@@ -1,4 +1,4 @@
-# Escrow with Nganluong
+# Escrow payment
 
 ```
 Register your account in https://www.nganluong.vn/vn/home.html to get merchant_id and merchant_password.
